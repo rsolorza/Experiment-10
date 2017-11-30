@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Nov  9 21:20:56 2017
+# Process ID: 11836
+# Current directory: E:/Experiment-10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6376 E:\Experiment-10\Experiment-10.xpr
+# Log file: E:/Experiment-10/vivado.log
+# Journal file: E:/Experiment-10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Experiment-10/Experiment-10.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

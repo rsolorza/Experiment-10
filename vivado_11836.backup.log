@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Nov  9 21:20:56 2017
+# Process ID: 11836
+# Current directory: E:/Experiment-10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6376 E:\Experiment-10\Experiment-10.xpr
+# Log file: E:/Experiment-10/vivado.log
+# Journal file: E:/Experiment-10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Experiment-10/Experiment-10.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Experiment-10' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Experiment-10.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 742.867 ; gain = 67.234
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Nov  9 22:07:10 2017] Launched synth_1...
+Run output will be captured here: E:/Experiment-10/Experiment-10.runs/synth_1/runme.log
+[Thu Nov  9 22:07:10 2017] Launched impl_1...
+Run output will be captured here: E:/Experiment-10/Experiment-10.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  9 22:42:31 2017...
